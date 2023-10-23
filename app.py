@@ -193,7 +193,7 @@ if app_mode == 'Prediction':
     st.write("1) The model explains,", np.round(mt.explained_variance_score(y_test, predictions)*100,2),"% variance of the target feature")
     st.write("2) The Mean Absolute Error of model is:", np.round(mt.mean_absolute_error(predictions,y_test),2))
     mse = np.round(mt.mean_squared_error(predictions,y_test),2))
-    st.write("3") The Root Mean Squared Error is:"rmse = sqrt(mse)"
+    st.write("3") The Root Mean Squared Error is:"rmse = sqrt(mse))
     st.write("4") The R-Square score of the model is " , np.round(mt.r2_score(predictions,y_test),2))
 
 
