@@ -36,7 +36,7 @@ dfnew["video_error_or_removed"] = dfnew["video_error_or_removed"].astype("catego
 
 # Dropdown menu for selecting which variable from the dataset to predict
 list_variable = ["views"]
-list_variables = dfnew
+list_variables = df.columns
 select_variable =  st.sidebar.selectbox('🎯 Select Variable to Predict',list_variable)
 
 # Introduction page content
