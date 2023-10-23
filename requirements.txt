@@ -6,5 +6,5 @@ seaborn
 scikit-learn
 plotly
 streamlit
-PIL
+pillow
 altair
