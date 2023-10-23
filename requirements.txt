@@ -1,10 +1,10 @@
 streamlit
 pandas 
 numpy
-matplotlib.pyplot
+matplotlib
 seaborn
-sklearn.linear_model
-plotly.express
+scikit-learn
+plotly
 streamlit
 random
 PIL
