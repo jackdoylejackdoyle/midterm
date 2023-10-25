@@ -197,7 +197,6 @@ if app_mode == 'Prediction':
     rmse = np.sqrt(np.round(mt.mean_squared_error(predictions,y_test),2))
     st.write("3) The Root Mean Squared Error is:", rmse)
     st.write("4) The R-Square score of the model is " , np.round(mt.r2_score(predictions,y_test),2))
-    st.write("5) The average number of likes for a video is ", df.likes.mean()
 if app_mode == "Analysis":
     st.markdown("## Analysis")
 
