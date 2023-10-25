@@ -210,6 +210,6 @@ if app_mode == "Analysis":
     st.bar_chart(data=df, x=symbols[0], y=symbols[1], use_container_width=True)
 
     st.markdown("1. Comments are highly correlated to likes, but there are outliers. Likes are 18% more correlated to comments than views!")
-    st.markdown("2. The videos with the most likes appear to be posted between 4AM and 6PM EST, however, this could be heavily influencd by outliers.")
+    st.markdown("2. The videos with the most likes appear to be posted between 4AM and 6PM EST, however, there is no correlation between the two variables.")
     st.markdown("3. Likes and dislikes are 45% correlated, however there are huge outliers. Few videos have an equal like to dislike ratio.")
     st.markdown("4. Likes are 10% more correlated to comments than dislikes, perhaps people comment more when pleased than when frustrated.")
