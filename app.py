@@ -194,7 +194,7 @@ if app_mode == 'Prediction':
     # Display various metrics about the prediction results in the Streamlit app >>>>>>>>>>>>
     st.write("1) The model explains,", np.round(mt.explained_variance_score(y_test, predictions)*100,2),"% variance of the target feature")
     st.write("2) The Mean Absolute Error of the model is:", np.round(mt.mean_absolute_error(predictions,y_test),2))
-    rmse = np.sqrt(np.round(mt.mean_absolute_error(predictions,y_test),2))
+    rmse = np.sqrt(np.round(mt.mean_squared_error(predictions,y_test),2))
     st.write("3) The Root Mean Squared Error is:", rmse)
     st.write("4) The R-Square score of the model is " , np.round(mt.r2_score(predictions,y_test),2))
 if app_mode == "Analysis":
