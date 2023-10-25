@@ -209,7 +209,7 @@ if app_mode == "Analysis":
     # Display a bar chart for the selected variables
     st.bar_chart(data=df, x=symbols[0], y=symbols[1], use_container_width=True)
 
-    st.markdown("1. More comments are usually associated with more likes, however, there are outliers demonstrating a high comment to like ratio, perhaps becuase these videos are controversial and thus encourage engagement (there are many other possibilities - the youtuber could have encouraged comments on said video for a giveway or simply for input on a subject. Number of comments is more closely correlated to views than likes, which is sensible considering most videos are not controversial and not highly interactive.")
-    st.markdown("2. There is a strong correlation between trending date and number of likes. This means that youtubers should consider when they are posting their video, and do additional research to understand if their date/month of posting will be beneficial to the trendiness of their content. We can also understand from this that the “trending” of a video does not solely rely on the specific content produced, but the time of its production.")
-    st.markdown("3. The number of likes received on a video is slightly higher when the comment section is enabled, verses when the comments are disabled. This means that when a youtuber should consider this factor if they are aiming to trend on a larger scale.")
-    st.markdown("4. Our prediction concludes that the most important factor in trend prediction is the date of publication. The videos with the most views (=trendiness), all have been published in the same general time period.")
+    st.markdown("1. Comments are highly correlated to likes, but there are outliers. Likes are 18% more correlated to comments than views!")
+    st.markdown("2. The videos with the most likes appear to be posted between 4AM and 6PM EST, however, this could be heavily influencd by outliers.")
+    st.markdown("3. Likes and dislikes are 45% correlated, however there are huge outliers. Few videos have an equal like to dislike ratio, perhaps demonstrating brigading.")
+    st.markdown("4. Likes are 10% more correlated to comments than dislikes, thus people comment more when they are happy with a video.
