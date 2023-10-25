@@ -212,4 +212,4 @@ if app_mode == "Analysis":
     st.markdown("1. Comments are highly correlated to likes, but there are outliers. Likes are 18% more correlated to comments than views!")
     st.markdown("2. The videos with the most likes appear to be posted between 4AM and 6PM EST, however, this could be heavily influencd by outliers.")
     st.markdown("3. Likes and dislikes are 45% correlated, however there are huge outliers. Few videos have an equal like to dislike ratio, perhaps demonstrating brigading.")
-    st.markdown("4. Likes are 10% more correlated to comments than dislikes, thus people comment more when they are happy with a video.
+    st.markdown("4. Likes are 10% more correlated to comments than dislikes, thus people comment more when they are happy with a video.")
