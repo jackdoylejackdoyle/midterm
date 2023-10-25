@@ -22,7 +22,7 @@ image_youtube = Image.open('youtube.png')
 st.image(image_youtube, width=100)
 
 # Set the title for the Streamlit app >>>>>>>>>>>>
-st.title("YOUTUBE TREND PREDICTOR")
+st.title("YOUTUBE LIKES ANALYSIS")
 
 # Create a sidebar header and a separator
 st.sidebar.header("Dashboard")
