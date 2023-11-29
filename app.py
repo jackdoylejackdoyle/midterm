@@ -11,12 +11,13 @@ import streamlit as st
 import random
 from PIL import Image
 import altair as alt
-
 from codecarbon import EmissionsTracker
 
 tracker = EmissionsTracker()
-tracker.start()
-tracker.stop()
+with tracker:
+    # Your code here
+    st.button("Click me")
+st.write(f"Estimated carbon footprint: {tracker.total_emissions} kgCO2")
 
 image_youtube = Image.open('youtube.png')
 st.image(image_youtube, width=100)
